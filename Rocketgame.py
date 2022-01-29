@@ -1,3 +1,4 @@
+
 import pygame
 import os
 import random
@@ -30,19 +31,19 @@ VEL = 5
 #Variables for the spaceships size.
 SPACESHIP_WIDTH, SPACESHIP_HEIGT = 50, 100
 #Loading the image for the spaceship.
-SPACESHIP = pygame.image.load(os.path.join('Alus2.png'))
+SPACESHIP = pygame.image.load(os.path.join('Images/Alus2.png'))
 #Scaling the image of the spaceship, same size of the spaceship
 SPACESHIP = pygame.transform.scale(SPACESHIP, (SPACESHIP_WIDTH,SPACESHIP_HEIGT))
 
 #Variables for the size of the meteorite.
 METEORITE_WIDTH, METEORITE_HEIGT = 50, 100 
 #Loading the image for the meteorites.
-METEORITE = pygame.image.load(os.path.join('meteorite.png'))
+METEORITE = pygame.image.load(os.path.join('Images/meteorite.png'))
 #Scaling the picture to the size of a meteorite.
 METEORITE = pygame.transform.scale(METEORITE, (METEORITE_WIDTH, METEORITE_HEIGT))
 
 #Loading the image for the space backcround
-BACKGROUND = pygame.image.load(os.path.join('space.png'))
+BACKGROUND = pygame.image.load(os.path.join('Images/space.png'))
 #Scaling the picture to the size of the window
 BACKGROUND = pygame.transform.scale(BACKGROUND, (WIDTH, HEIGHT))
 
